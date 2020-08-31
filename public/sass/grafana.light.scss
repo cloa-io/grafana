@@ -1,3 +1,11 @@
 @import 'variables.generated';
 @import 'variables.light.generated';
 @import 'grafana';
+
+.sidemenu,
+.sidemenu__logo,
+.navbar-buttons--tv,
+.navbar-page-btn,
+.navbar-buttons--actions {
+    display: none !important;
+}
